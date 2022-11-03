@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            IVehicle vehicle1 = VehicleFactory.GetVehicle("Wheels");
+            IVehicle vehicle2 = VehicleFactory.GetVehicle("2");
         }
     }
 }

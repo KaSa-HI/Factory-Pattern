@@ -6,6 +6,8 @@
         {
             IVehicle vehicle1 = VehicleFactory.GetVehicle("Wheels");
             IVehicle vehicle2 = VehicleFactory.GetVehicle("2");
+
+            // Checked Type above Vehicles using Break/Stop
         }
     }
 }
